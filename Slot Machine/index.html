@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+  	<meta charset="utf-8">
+  	<meta name="description" content="Your description goes here">
+  	<meta name="keywords" content="one, two, three">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<script src="https://kit.fontawesome.com/aa1a2a1c33.js" crossorigin="anonymous"></script>
+
+		<title>Slot Machine</title>
+
+		<!-- external CSS link -->
+		<link rel="stylesheet" href="css/reset.css">
+		<link rel="stylesheet" href="css/style.css">
+	</head>
+	<body>
+		<main>
+
+			<!--SLOT MACHINE-->
+
+			<h1>The Slot</h1>
+			<div class="reels">
+
+				<section id="leftReel">
+					<img id="imgReelL" src="lReelImg" alt="">
+
+				</section>
+
+				<section id="midReel">
+					<img id="imgReelM" src="mReelImg" alt="">
+
+				</section>
+
+				<section id="rightReel">
+					<img id="imgReelR" src=rReelImg alt="">
+
+				</section>
+
+			</div>
+
+<div class="betAndSpin">
+			<select id="bet">
+				<option value="5">$5</option>
+				<option value="10">$10</option>
+				<option value="25">$25</option>
+				<option value="50">$50</option>
+			</select>
+
+			<button id="spinBtn" type="button" name="spin">Spin!
+			</button>
+		</div>
+
+		<!--BALANCE-->
+
+<div class="wrapper">
+<div class="balance">
+	<p>Balance: <span id="currentBalance">$1000</span></p>
+</div>
+</div>
+		</main>
+
+		<script type="text/javascript" src="js/main.js"></script>
+	</body>
+</html>
